@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EMON APK Download</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+  <h1>EMON APK Download</h1>
+  <p>ডাউনলোড করতে নিচের ধাপগুলো সম্পন্ন করুন।</p>
+
+  <section id="step1">
+    <h2>১. পাসওয়ার্ড</h2>
+    <input id="password" type="password" placeholder="Password">
+    <button id="checkPassword">Continue</button>
+    <p id="pwMsg" class="msg"></p>
+  </section>
+
+  <section id="step2" class="hidden">
+    <h2>২. Follow করুন</h2>
+    <a class="social" href="https://www.facebook.com/share/14pND6q9QC9/" target="_blank" rel="noopener">Facebook খুলুন</a>
+    <a class="social" href="https://www.tiktok.com/@ffidsaler1587?_r=1&_t=ZS-9AGtt2JAcJ2" target="_blank" rel="noopener">TikTok খুলুন</a>
+    <label class="check"><input id="followed" type="checkbox"> আমি Facebook ও TikTok follow করেছি</label>
+    <button id="requestBtn">Download Permission Request</button>
+    <p class="small">নোট: ওয়েবসাইট নিজে Facebook/TikTok-এর follow status নিশ্চিত করতে পারে না; আপনার approval-এর পরই download unlock হবে।</p>
+    <p id="requestMsg" class="msg"></p>
+  </section>
+
+  <section id="step3" class="hidden">
+    <h2>৩. Approval</h2>
+    <p>আপনার request পাঠানো হয়েছে। আপনি approved হলে নিচের বাটন থেকে APK ডাউনলোড করতে পারবেন।</p>
+    <button id="checkBtn">Check Approval</button>
+    <a id="downloadBtn" class="download hidden" href="#" rel="nofollow">Download APK</a>
+    <p id="status" class="msg"></p>
+  </section>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>
